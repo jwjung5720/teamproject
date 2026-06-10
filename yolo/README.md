@@ -1,1 +1,1 @@
-yolo
+yolov8-pose
