@@ -5,6 +5,9 @@
 ## 프로젝트 개요
 팔레트의 모서리와 지게차 포크 삽입구를 정확히 식별하여, 향후 자동화된 물류 시스템이나 로봇 제어)의 기초 데이터로 활용하는 것이 목표입니다.
 
+## 학습 데이터
+train 162장 / valid 20장 / test 21장
+
 ## 키포인트 정의 (6 Points)
 모델은 각 팔레트에서 다음 6개의 지점을 검출합니다:
 - **kp0**: 왼쪽 위 모서리
@@ -17,6 +20,12 @@
 ## 모델 성능 (v3 모델 기준)
 - **Box mAP50**: 99.1% (팔레트 위치 검출 정확도)
 - **Pose mAP50**: 99.1% (키포인트 검출 정확도)
+
 - **추론 속도**: 약 3.6ms (NVIDIA RTX 4070 Ti 기준)
 
+##결과
+<img width="585" height="383" alt="5" src="https://github.com/user-attachments/assets/c49cc0bd-aa0b-442c-b49c-13fb485554c9" />
+<img width="494" height="319" alt="2" src="https://github.com/user-attachments/assets/f31fd118-0f1a-4f4e-9255-bfbf8400a81d" />
+<img width="529" height="292" alt="1" src="https://github.com/user-attachments/assets/5f7e6b86-300e-4b9b-8f55-f8270f48029f" />
+<img width="479" height="383" alt="7" src="https://github.com/user-attachments/assets/acf3d4bf-6ac4-404b-94ed-052a32897558" />
 
