@@ -24,6 +24,7 @@ train 162장 / valid 20장 / test 21장
 - **추론 속도**: 약 3.6ms (NVIDIA RTX 4070 Ti 기준)
 
 ##결과
+
 <img width="585" height="383" alt="5" src="https://github.com/user-attachments/assets/c49cc0bd-aa0b-442c-b49c-13fb485554c9" />
 <img width="494" height="319" alt="2" src="https://github.com/user-attachments/assets/f31fd118-0f1a-4f4e-9255-bfbf8400a81d" />
 <img width="529" height="292" alt="1" src="https://github.com/user-attachments/assets/5f7e6b86-300e-4b9b-8f55-f8270f48029f" />
